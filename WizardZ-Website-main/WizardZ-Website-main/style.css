@@ -1,0 +1,439 @@
+/* ================= YOUR ORIGINAL CSS (UNCHANGED) ================= */
+
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+ font-family:gilroy;
+}
+
+html, body{
+ height:100%;
+ width:100%;
+}
+
+section{
+ width:100%;
+ position:relative;
+}
+
+nav{
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ padding:60px 80px;
+}
+
+.part2{
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ gap:80px;
+}
+
+nav h1{
+ font-size:50px;
+}
+
+nav h1 i{
+ display:inline-block;
+ rotate:45deg;
+ font-size:55px;
+ gap:20px;
+}
+
+nav h4{
+ font-size:35px;
+ font-weight:500;
+ margin:0;
+}
+
+nav button{
+ padding:20px 40px;
+ font-size:22px;
+ border-radius:10px;
+ background-color:transparent;
+ font-weight:600;
+ border:1px solid #000;
+ align-items:center;
+}
+
+.center{
+ padding:70px 200px;
+ height:80%;
+ width:100%;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+}
+
+.centerpart1{
+ height:100%;
+ width:44%;
+}
+
+.centerpart1 h1{
+ line-height:1.1;
+ font-size:90px;
+ font-family:monospace;
+}
+
+.centerpart1 p{
+ font-size:30px;
+ width:95%;
+ margin-top:30px;
+ margin-bottom:25px;
+}
+
+.centerpart1 button{
+ background-color:black;
+ color:white;
+ border-radius:10px;
+ padding:22px 40px;
+ font-size:25px;
+ font-weight:600;
+ border:none;
+}
+
+.centerpart2{
+ height:100%;
+ width:56%;
+ position:relative;
+}
+
+.centerpart2 img{
+ width:100%;
+ height:auto;
+ position:relative;
+}
+
+.section1bottom{
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ padding:30px 120px;
+}
+
+.section1bottom img{
+ height:100px;
+ color:black;
+}
+
+.section2 .services{
+ display:flex;
+ align-items:flex-start;
+ padding:40px 190px;
+ justify-content:flex-start;
+ gap:50px;
+ margin-top:30px;
+}
+
+.services h3{
+ background-color:#9AE975;
+ font-weight:500;
+ padding:6px 12px;
+ border-radius:5px;
+ font-size:60px;
+ display:inline-block;
+}
+
+.services p{
+ width:40%;
+ font-size:20px;
+ font-weight:500;
+ padding:20px;
+}
+
+.container{
+ width:100%;
+ padding:40px 120px;
+ display:flex;
+ justify-content:space-between;
+ flex-wrap:wrap;
+ gap:40px;
+}
+
+.elem{
+ flex-shrink:0;
+ background-color:#9AE975;
+ height:400px;
+ width:47%;
+ border:3px solid black;
+ border-radius:50px;
+ box-shadow:0px 15px 0px black;
+}
+
+
+/* ================================================= */
+/* ================= NEW SECTIONS ================== */
+/* ================================================= */
+
+
+/* ================= HERO ================= */
+
+.hero{
+ padding:70px 200px;
+ height:80%;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+}
+
+.hero-left{
+ width:44%;
+}
+
+.hero-left h1{
+ line-height:1.1;
+ font-size:90px;
+ font-family:monospace;
+}
+
+.hero-left p{
+ font-size:30px;
+ width:95%;
+ margin-top:30px;
+ margin-bottom:25px;
+}
+
+.hero-left button{
+ background-color:black;
+ color:white;
+ border-radius:10px;
+ padding:22px 40px;
+ font-size:25px;
+ font-weight:600;
+ border:none;
+}
+
+.hero-right{
+ width:56%;
+}
+
+.hero-right img{
+ width:100%;
+ height:auto;
+}
+
+
+/* ================= SECTION TITLE ================= */
+
+.section-title{
+ display:flex;
+ align-items:flex-start;
+ padding:40px 190px;
+ gap:50px;
+}
+
+.section-title h2{
+ background-color:#9AE975;
+ font-weight:500;
+ padding:6px 12px;
+ border-radius:5px;
+ font-size:60px;
+ display:inline-block;
+}
+
+.section-title p{
+ width:40%;
+ font-size:20px;
+ font-weight:500;
+ padding-top:20px;
+}
+
+
+/* ================= CARDS ================= */
+
+.cards{
+ width:100%;
+ padding:40px 120px;
+ display:flex;
+ justify-content:space-between;
+ flex-wrap:wrap;
+ gap:40px;
+}
+
+.card{
+ background-color:#9AE975;
+ height:400px;
+ width:47%;
+ border:3px solid black;
+ border-radius:50px;
+ box-shadow:0px 15px 0px black;
+ padding:50px;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+}
+
+.card i{
+ font-size:60px;
+ margin-bottom:20px;
+}
+
+.card h3{
+ font-size:40px;
+ margin-bottom:20px;
+}
+
+.card p{
+ font-size:22px;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about{
+ padding:150px 200px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+
+.about-left{
+ width:50%;
+}
+
+.about-left h2{
+ font-size:70px;
+ margin-bottom:30px;
+}
+
+.about-left p{
+ font-size:22px;
+ margin-bottom:25px;
+}
+
+.about-left ul{
+ list-style:none;
+}
+
+.about-left ul li{
+ font-size:22px;
+ margin-bottom:10px;
+}
+
+.about-right{
+ width:40%;
+}
+
+.about-right img{
+ width:100%;
+}
+
+
+/* ================= PROCESS ================= */
+
+.process{
+ padding:150px 200px;
+}
+
+.process-steps{
+ display:flex;
+ justify-content:space-between;
+ margin-top:80px;
+}
+
+.step{
+ background-color:#9AE975;
+ width:22%;
+ height:220px;
+ border-radius:40px;
+ border:3px solid black;
+ box-shadow:0px 12px 0px black;
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ justify-content:center;
+}
+
+.step h3{
+ font-size:50px;
+}
+
+.step p{
+ font-size:20px;
+ margin-top:10px;
+}
+
+
+/* ================= TESTIMONIAL ================= */
+
+.testimonial{
+ padding:150px 200px;
+}
+
+.testimonial-box{
+ margin-top:80px;
+ padding:80px;
+ background-color:#9AE975;
+ border-radius:50px;
+ border:3px solid black;
+ box-shadow:0px 15px 0px black;
+}
+
+.testimonial-box p{
+ font-size:30px;
+ margin-bottom:20px;
+}
+
+.testimonial-box h4{
+ font-size:22px;
+}
+
+
+/* ================= CTA ================= */
+
+.cta{
+ padding:150px 200px;
+ text-align:center;
+}
+
+.cta h2{
+ font-size:80px;
+ margin-bottom:40px;
+}
+
+.cta button{
+ padding:25px 60px;
+ font-size:25px;
+ border-radius:15px;
+ border:3px solid black;
+ background-color:#9AE975;
+ font-weight:600;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer{
+ background-color:black;
+ color:white;
+ padding:100px 150px;
+}
+
+.footer-content{
+ display:flex;
+ justify-content:space-between;
+}
+
+.footer-logo h2{
+ font-size:50px;
+ margin-bottom:10px;
+}
+
+.footer-links h4{
+ font-size:30px;
+ margin-bottom:20px;
+}
+
+.footer-links p{
+ font-size:20px;
+ margin-bottom:10px;
+}
+
+.footer-bottom{
+ text-align:center;
+ margin-top:60px;
+ font-size:18px;
+}
